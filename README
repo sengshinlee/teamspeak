@@ -1,0 +1,15 @@
+Description
+  A bash script for Ubuntu to install TeamSpeak3 Server.
+
+Usage
+  Firewall ports
+    Minimum
+      - 9987/udp: used for Voice.
+      - 30033/tcp: used for File Transfer.
+
+    Optional
+      - 10011/tcp: used for ServerQuery raw (Recommended).
+      - 10022/tcp: used for ServerQuery SSH.
+      - 10080/tcp: used for WebQuery HTTP.
+      - 10443/tcp: used for WebQuery HTTPS.
+      - 41144/tcp: used for DNS.
